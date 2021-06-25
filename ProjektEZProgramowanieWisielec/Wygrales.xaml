@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProjektEZProgramowanieWisielec.Wygrales"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektEZProgramowanieWisielec"
+        mc:Ignorable="d"
+        Title="Wygrales" Height="450" Width="800">
+    <Grid>
+        <Label Content="Uratowałeś go! :D" HorizontalAlignment="Center" Margin="0,242,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Image HorizontalAlignment="Center" Height="233" Margin="0,10,0,0" VerticalAlignment="Top" Width="232" Source="/data/obrazek1.jpg"/>
+        <Button x:Name="btnDoMenu" Content="Do menu" HorizontalAlignment="Left" Margin="65,344,0,0" VerticalAlignment="Top" FontSize="36" Click="btnDoMenu_Click"/>
+        <Button x:Name="btnJeszczeRaz" Content="Jeszcze raz " HorizontalAlignment="Left" Margin="560,344,0,0" VerticalAlignment="Top" FontSize="36" Click="btnJeszczeRaz_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="data\glowa.jpg" />
+    <None Remove="data\obrazek1.jpg" />
+    <None Remove="data\obrazek2.jpg" />
+    <None Remove="data\stick.jpg" />
+    <None Remove="glowa.jpg" />
+    <None Remove="stick.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="data\glowa.jpg" />
+    <Resource Include="data\obrazek1.jpg" />
+    <Resource Include="data\obrazek2.jpg" />
+    <Resource Include="data\stick.jpg" />
+    <Resource Include="glowa.jpg" />
+    <Resource Include="stick.jpg" />
+  </ItemGroup>
+
+</Project>
