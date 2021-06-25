@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjektEZProgramowanieWisielec", "ProjektEZProgramowanieWisielec\ProjektEZProgramowanieWisielec.csproj", "{6F1FC02B-9C00-4834-8856-107231D8F92A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjektEZProgramowanieWisielec", "ProjektEZProgramowanieWisielec\ProjektEZProgramowanieWisielec.csproj", "{6F1FC02B-9C00-4834-8856-107231D8F92A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWisielec", "TestWisielec\TestWisielec.csproj", "{20274E15-A8A3-4D1B-8366-546ECCF75295}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6F1FC02B-9C00-4834-8856-107231D8F92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F1FC02B-9C00-4834-8856-107231D8F92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F1FC02B-9C00-4834-8856-107231D8F92A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20274E15-A8A3-4D1B-8366-546ECCF75295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20274E15-A8A3-4D1B-8366-546ECCF75295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20274E15-A8A3-4D1B-8366-546ECCF75295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20274E15-A8A3-4D1B-8366-546ECCF75295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
