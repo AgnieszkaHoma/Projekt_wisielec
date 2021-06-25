@@ -29,7 +29,7 @@ namespace ProjektEZProgramowanieWisielec
 
         private void btnJeszczeRaz_Click(object sender, RoutedEventArgs e)
         {
-            ///jeśli stan solo czyli zero to wrócić się prosto do gry
+            ///jeśli stan solo, czyli zero, to wrócić się prosto do gry
             if (int.Parse(multiplayerSettingsContent[0]) == 0)
             {
                 GameWindowSolo gameWindow = new GameWindowSolo();

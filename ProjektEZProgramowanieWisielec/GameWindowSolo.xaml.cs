@@ -74,7 +74,7 @@ namespace ProjektEZProgramowanieWisielec
                 haslo = multiplayerSettings[1];
             }
 
-            /// ustawienie widocznych pol tak by pasowały do ilości liter
+            /// ustawienie widocznych pól tak, by pasowały do ilości liter
             for (int i = 0; i < haslo.Length; i++)
             {
                 myTextboxList[i].Visibility = Visibility.Visible;
